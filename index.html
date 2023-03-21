@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="https://cdn.iconscout.com/icon/free/png-256/mercedes-8-202855.png">
+    <title>Mercedes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+
+<body>
+
+    <div class="container-fluid p-0">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <img src="assets/img/navbar__logo.jpg" alt="navbar__logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fs-4 mx-3" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fs-4 mx-3" href="#Catalog">Catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary fs-4 mx-3" href="#Article">Article</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn " type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="Home">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item ">
+                    <img src="assets/img/carousel__1.jpg"
+                        alt="Nimadir">
+                </div>
+                <div class="carousel-item active">
+                    <img src="https://avatars.mds.yandex.net/get-autoru-vos/2198129/181cf401d381afde0de162ccfc68ba91/1200x900n"
+                        alt="Nimadir">
+                </div>
+                <div class="carousel-item ">
+                    <img src="assets/img/carousel__3.jpg"
+                        alt="Nimadir">
+                </div>
+            </div>
+            <div class="carousel__text">
+                <div class="row">
+                    <h1 class="col-12 text-center h1">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                    </h1>
+                    <p class="col-12 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                        nam maiores qui. Enim, earum beatae?</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel__color">
+
+            </div>
+        </div>
+
+        <!--  Catalog -->
+        <div class="catalog" id="Catalog">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-12 catalog__header">
+                        <h1 class=" text-center my-5">Catalog</h1>
+                    </div>
+
+                    <div class="catalog__card col-12">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card1.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062161-88f47f61/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card2.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT 63 I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062184-3a2a90e2/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card3.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1115053096-087b062a/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card4.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT 43 I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1115592849-2e13ca95/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card5.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT R I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/new/group/mercedes/amg_gt/20830966/21036527/1117901842-04e0f825/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card6.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT C I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117880806-04ea1c8b/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Maqola -->
+        <div class="article" id="Article">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-center my-5">Article</h1>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="accordion my-5" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                Lorem, ipsum dolor.
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the first item's accordion body.</strong> It is shown by
+                                                default, until the collapse plugin adds the appropriate classes that we
+                                                use to style each element. These classes control the overall appearance,
+                                                as well as the showing and hiding via CSS transitions. You can modify
+                                                any of this with custom CSS or overriding our default variables. It's
+                                                also worth noting that just about any HTML can go within the
+                                                <code>.accordion-body</code>, though the transition does limit overflow.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Lorem, ipsum.
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the second item's accordion body.</strong> It is hidden
+                                                by default, until the collapse plugin adds the appropriate classes that
+                                                we use to style each element. These classes control the overall
+                                                appearance, as well as the showing and hiding via CSS transitions. You
+                                                can modify any of this with custom CSS or overriding our default
+                                                variables. It's also worth noting that just about any HTML can go within
+                                                the <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Lorem ipsum dolor sit.
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <strong>This is the third item's accordion body.</strong> It is hidden
+                                                by default, until the collapse plugin adds the appropriate classes that
+                                                we use to style each element. These classes control the overall
+                                                appearance, as well as the showing and hiding via CSS transitions. You
+                                                can modify any of this with custom CSS or overriding our default
+                                                variables. It's also worth noting that just about any HTML can go within
+                                                the <code>.accordion-body</code>, though the transition does limit
+                                                overflow.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card">
+                                    <h5 class="card-header border-0 fs-3 fw-bold">Something about Mercedes!</h5>
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Special title treatment</h5>
+                                        <p class="card-text mx-0 mt-2">With supporting text below as a natural lead-in
+                                            to
+                                            additional
+                                            content.</p>
+                                        <a href="#" class="btn mt-3">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card1.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062161-88f47f61/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card2.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT 63 I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062184-3a2a90e2/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-sm-6">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card3.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1115053096-087b062a/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-3 side__block">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card1.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062161-88f47f61/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card">
+                                    <img src="assets/img/catalog/card2.jpg"
+                                        class="card-img-top" alt="Nimadir">
+                                    <div class="card-body">
+                                        <h5 class="card-title mt-2">Mercedes-Benz AMG GT S I Рестайлинг</h5>
+                                        <p class="card-text mx-0 mt-2">Some quick example text to build on the card
+                                            title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="https://auto.ru/cars/used/sale/mercedes/amg_gt/1117062161-88f47f61/"
+                                            class="btn mt-3" target="_blank">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

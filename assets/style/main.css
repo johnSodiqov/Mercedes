@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(53, 54, 54);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  color: rgb(168, 168, 168);
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar img {
+  width: 100px;
+  height: 100px;
+}
+.navbar button {
+  background-color: rgb(129, 128, 128);
+  color: black;
+}
+
+.carousel {
+  height: 100vh;
+  position: relative;
+  z-index: 90;
+}
+.carousel .carousel__text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  top: 45%;
+  left: 10%;
+  z-index: 10;
+  color: rgb(192, 192, 192);
+}
+.carousel .carousel__text h1 {
+  font-size: 64px;
+}
+.carousel .carousel__text p {
+  font-size: 24px;
+}
+.carousel button {
+  position: absolute;
+  z-index: 90;
+}
+.carousel .carousel__color {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.486);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+
+.carousel-item {
+  height: 100%;
+}
+.carousel-item img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+}
+
+@media (max-width: 520px) {
+  .carousel {
+    height: auto !important;
+    width: 100% !important;
+  }
+  .carousel__text {
+    position: absolute;
+    height: 100% !important;
+    top: 10px !important;
+    display: grid;
+  }
+  .h1 {
+    width: 70%;
+    font-size: 12px !important;
+    margin: 10px auto;
+  }
+  p {
+    font-size: 8px !important;
+    width: 70% !important;
+    margin: 0 auto;
+  }
+  .navbar img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.catalog .card {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  border: none;
+  background-color: rgb(46, 46, 46);
+}
+.catalog .card img {
+  width: 100%;
+  height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.catalog .card .card__title {
+  margin: 20px 0;
+}
+.catalog a {
+  background-color: rgb(129, 128, 128);
+}
+
+.article .accordion-item {
+  background-color: rgb(46, 46, 46) !important;
+  color: rgb(168, 168, 168);
+}
+.article .accordion-item button {
+  background-color: rgb(46, 46, 46);
+  color: rgb(168, 168, 168);
+}
+.article .card {
+  width: 100%;
+  height: 80%;
+  margin: 50px auto;
+  border: none;
+  background-color: rgb(46, 46, 46);
+}
+.article .card img {
+  width: 100%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.article .card a {
+  background-color: rgb(129, 128, 128);
+}/*# sourceMappingURL=main.css.map */
